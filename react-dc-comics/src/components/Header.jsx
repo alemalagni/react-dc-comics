@@ -1,3 +1,7 @@
 export default function Header() {
-    return (<header> /* contenuto qui */ </header>);
+    return (
+        <header>
+            <img src="../../img/dc-logo.png" />
+        </header>
+    );
 }
