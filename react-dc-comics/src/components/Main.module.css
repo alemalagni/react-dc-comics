@@ -1,4 +1,7 @@
 .main {
     background-color: #000000;
     color: #ffffff;
+    width: 100vw;
+    padding: 20px;
+    height: 130px;
 }
