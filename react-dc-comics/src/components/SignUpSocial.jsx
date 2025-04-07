@@ -3,9 +3,11 @@ const SignUpSocial = () => {
         <div>
             <a>
                 <img
-                    src="./img/footer-facebook"
+                    src="./img/footer-facebook.png"
                 />
             </a>
         </div>
     );
 };
+
+export default SignUpSocial;
