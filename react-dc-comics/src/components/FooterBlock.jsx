@@ -1,10 +1,18 @@
-import FooterBlockCard from './FooterBlockCard.jsx';
+import FooterBlockCard from './FooterBlockCard';
 const CardItems = ['DIGITAL COMICS', 'DC MERCHANDISE', 'SUBSCRIPTION', 'COMIC SHOP LOCATOR', 'DC POWER VISA'];
 
-export default function FooterBlock() {
+const FooterBlock = () => {
     return (
         <div>
-            {'--> Content goes here <--'}
+            {CardItems.map((item) => (
+                <FooterBlockCard
+                    key={item}
+                    label={item}
+                />
+            ))};
         </div>
     );
-}
+};
+
+
+export default FooterBlock;
