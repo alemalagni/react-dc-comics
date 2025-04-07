@@ -3,9 +3,10 @@ const social = ['facebook', 'twitter', 'youtube', 'pinterest', 'periscope']
 
 const SignUp = () => {
     return (
-        <div style={{ display: 'flex', justifyContent: 'space-between' }}>
+        <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
             <strong> SIGN UP NOW! </strong>
-            <div>
+            <div style={{ display: 'flex', gap: '5px', alignItems: 'center' }}>
+                <strong> FOLLOW US </strong>
                 {social.map((item) => (
                     <SignUpSocial
                         social={item}
