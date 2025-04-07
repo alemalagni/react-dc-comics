@@ -1,4 +1,5 @@
 .style {
     background-image: url("./img/footer-bg.jpg");
     background-repeat: no-repeat;
+    background-size: 100vw;
 }
