@@ -1,9 +1,9 @@
-const SignUpSocial = () => {
+const SignUpSocial = (social) => {
     return (
         <div>
             <a>
                 <img
-                    src="./img/footer-facebook.png"
+                    src={`./img/footer-${social}.png `}
                 />
             </a>
         </div>
