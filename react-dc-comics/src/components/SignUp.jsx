@@ -1,4 +1,4 @@
-export default function SignUp() {
+const SignUp = () => {
     return (
         <div style={{ display: 'flex', justifyContent: 'space-between' }}>
             <strong> SIGN UP NOW! </strong>
@@ -6,3 +6,5 @@ export default function SignUp() {
         </div>
     );
 }
+
+export default SignUp;
