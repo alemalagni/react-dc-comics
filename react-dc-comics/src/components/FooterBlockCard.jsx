@@ -4,4 +4,6 @@ const FooterBlockCard = ({ label }) => {
             {label}
         </div>
     );
-}
+};
+
+export default FooterBlockCard;
