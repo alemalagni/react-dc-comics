@@ -1,4 +1,4 @@
-const SignUpSocial = (social) => {
+const SignUpSocial = ({ social }) => {
     return (
         <div>
             <a>
