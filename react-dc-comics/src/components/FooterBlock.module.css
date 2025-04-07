@@ -1,0 +1,8 @@
+.style {
+    background-color: blue;
+    color: white;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    padding: 20px 0px;
+}
