@@ -1,6 +1,8 @@
+import style from "./FooterBlockCard.module.css"
+
 const FooterBlockCard = ({ label }) => {
     return (
-        <div>
+        <div className={style.style}>
             {label}
         </div>
     );
