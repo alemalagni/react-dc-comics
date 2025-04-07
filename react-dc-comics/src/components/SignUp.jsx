@@ -7,8 +7,8 @@ const SignUp = () => {
             <strong> SIGN UP NOW! </strong>
             {social.map((item) => {
                 <SignUpSocial
-                    key={social}
-                    social={social}
+                    key={item}
+                    social={item}
                 />
             })}
         </div>
