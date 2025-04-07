@@ -5,7 +5,7 @@ const navItems = ['CHARACTERS', 'COMICS', 'MOVIES', 'TV', 'GAMES', 'COLLECTIBLES
 
 const NavCard = () => {
     return (
-        <nav style={{ display: 'flex', gap: '20px', justifyContent: 'center' }} className={style.style}>
+        <nav className={style.style}>
             {navItems.map((item) => (
                 <NavItem
                     key={item}
