@@ -1,3 +1,8 @@
+import AboutUs from "./AboutUs";
+
 export default function Footer() {
-    return (<footer> --{'>'} Content goes here {'<'}-- </footer>);
+    return (
+        <footer>
+            <AboutUs></AboutUs>
+        </footer>);
 }
