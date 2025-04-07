@@ -1,4 +1,3 @@
-import React from 'react';
 import style from "./NavItem.module.css";
 
 const NavItem = ({ label, onClick }) => {
