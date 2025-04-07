@@ -24,7 +24,22 @@ const AboutUs = () => {
                 ))}
             </div>
             <div>
-
+                <strong>DC</strong>
+                {CardItems2.map((item) => (
+                    <AboutUsList
+                        key={item}
+                        label={item}
+                    />
+                ))}
+            </div>
+            <div>
+                <strong>SITES</strong>
+                {CardItems3.map((item) => (
+                    <AboutUsList
+                        key={item}
+                        label={item}
+                    />
+                ))}
             </div>
         </div>
     );
