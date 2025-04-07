@@ -1,7 +1,7 @@
 export default function SignUp() {
     return (
         <div>
-            {'--> Content goes here <--'}
+            <strong> SIGN UP NOW! </strong>
         </div>
     );
 }
