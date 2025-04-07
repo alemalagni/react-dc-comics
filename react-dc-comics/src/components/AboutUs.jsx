@@ -10,14 +10,14 @@ const AboutUs = () => {
     return (
         <div className={style.style}>
             <div>
-                <strong>DC COMICS</strong>
+                <strong className={style.strong}>DC COMICS</strong>
                 {CardItems0.map((item) => (
                     <AboutUsList
                         key={item}
                         label={item}
                     />
                 ))}
-                <strong>SHOP</strong>
+                <strong className={style.strong}>SHOP</strong>
                 {CardItems1.map((item) => (
                     <AboutUsList
                         key={item}
@@ -26,7 +26,7 @@ const AboutUs = () => {
                 ))}
             </div>
             <div>
-                <strong>DC</strong>
+                <strong className={style.strong}>DC</strong>
                 {CardItems2.map((item) => (
                     <AboutUsList
                         key={item}
@@ -35,7 +35,7 @@ const AboutUs = () => {
                 ))}
             </div>
             <div>
-                <strong>SITES</strong>
+                <strong className={style.strong}>SITES</strong>
                 {CardItems3.map((item) => (
                     <AboutUsList
                         key={item}
