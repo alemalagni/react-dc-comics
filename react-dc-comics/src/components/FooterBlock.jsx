@@ -11,7 +11,7 @@ const FooterBlock = () => {
                     key={item}
                     label={item}
                 />
-            ))};
+            ))}
         </div>
     );
 };

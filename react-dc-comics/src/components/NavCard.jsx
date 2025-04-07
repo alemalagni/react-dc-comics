@@ -13,7 +13,7 @@ const NavCard = () => {
                 />
             ))}
         </nav>
-    );
+    )
 };
 
 export default NavCard;
