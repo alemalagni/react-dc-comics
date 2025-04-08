@@ -8,7 +8,6 @@
 .main>div {
     display: flex;
     place-items: center;
-    height: 130px;
     width: 80%;
     margin: 0 auto;
 }
