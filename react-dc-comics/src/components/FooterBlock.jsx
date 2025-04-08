@@ -12,12 +12,14 @@ const CardItems = [
 const FooterBlock = () => {
     return (
         <div className={style.style}>
-            {CardItems.map((item) => (
-                <FooterBlockCard
-                    image={item.image}
-                    label={item.text}
-                />
-            ))}
+            <div>
+                {CardItems.map((item) => (
+                    <FooterBlockCard
+                        image={item.image}
+                        label={item.text}
+                    />
+                ))}
+            </div>
         </div>
     );
 };
