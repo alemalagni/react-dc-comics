@@ -2,8 +2,10 @@ import style from "./AboutUsList.module.css"
 
 const AboutUsList = ({ label }) => {
     return (
-        <div className={style.style}>
-            {label}
+        <div>
+            <a href="#" className={style.style}>
+                {label}
+            </a>
         </div>
     );
 };
