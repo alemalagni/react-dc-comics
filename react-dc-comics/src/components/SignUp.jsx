@@ -8,8 +8,8 @@ const SignUp = () => {
         <div className={style.style}>
             <div>
                 <div className={style.button}><a href="#"><strong> SIGN UP NOW! </strong></a></div>
-                <div style={{ display: 'flex', gap: '5px', alignItems: 'center' }}>
-                    <strong> FOLLOW US </strong>
+                <div className={style.social}>
+                    <strong className={style.follow}> FOLLOW US </strong>
                     {social.map((item) => (
                         <SignUpSocial
                             social={item}
