@@ -6,7 +6,9 @@ export default function Main() {
     return (
         <main className={style.main} >
             <MainBG />
-            <MainComics />
+            <div className={style.comics}>
+                <MainComics />
+            </div>
         </main >
     );
 }
