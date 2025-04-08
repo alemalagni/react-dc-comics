@@ -4,3 +4,10 @@
     background-size: 100vw;
     background-position: 0px;
 }
+
+.bgImage {
+    position: absolute;
+    top: 350px;
+    right: 10%;
+    z-index: 1;
+}
