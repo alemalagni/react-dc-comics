@@ -1,6 +1,8 @@
 .style {
-    color: gray;
+    color: #666666;
     display: flex;
+    width: 80%;
+    margin: 0 auto;
 }
 
 .strong {
