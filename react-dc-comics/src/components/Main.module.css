@@ -2,12 +2,18 @@
     background-color: #000000;
     color: #ffffff;
     width: 100vw;
-    height: 130px;
-    display: flex;
-    place-items: center;
+
 }
 
 .main>div {
+    display: flex;
+    place-items: center;
+    height: 130px;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.text {
     font-size: 20px;
     font-weight: bold;
 }
