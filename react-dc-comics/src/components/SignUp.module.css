@@ -11,12 +11,15 @@
 }
 
 .button {
-    padding: 10px 15px;
-    border: 1px solid #1B9CFC;
     margin: 30px 0px;
 }
 
-.button>a {
+.button>div {
+    border: 1px solid #1B9CFC;
+    padding: 10px 15px;
+}
+
+.buttonText {
     color: #ffffff;
 }
 
