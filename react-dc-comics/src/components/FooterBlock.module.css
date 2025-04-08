@@ -1,8 +1,13 @@
 .style {
     background-color: #0066ff;
     color: white;
+}
+
+.style>div {
     display: flex;
     gap: 20px;
     justify-content: center;
     padding: 20px 0px;
+    width: 80%;
+    margin: 0 auto;
 }
