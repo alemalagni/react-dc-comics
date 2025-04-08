@@ -7,7 +7,7 @@ const SignUp = () => {
     return (
         <div className={style.style}>
             <div>
-                <strong> SIGN UP NOW! </strong>
+                <div className={style.button}><a href="#"><strong> SIGN UP NOW! </strong></a></div>
                 <div style={{ display: 'flex', gap: '5px', alignItems: 'center' }}>
                     <strong> FOLLOW US </strong>
                     {social.map((item) => (
