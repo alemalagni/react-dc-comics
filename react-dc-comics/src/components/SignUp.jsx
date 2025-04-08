@@ -7,7 +7,7 @@ const SignUp = () => {
     return (
         <div className={style.style}>
             <div>
-                <div className={style.button}><a href="#"><strong> SIGN UP NOW! </strong></a></div>
+                <a href="#" className={style.button}><div><strong className={style.buttonText}> SIGN UP NOW! </strong></div></a>
                 <div className={style.social}>
                     <strong className={style.follow}> FOLLOW US </strong>
                     {social.map((item) => (
