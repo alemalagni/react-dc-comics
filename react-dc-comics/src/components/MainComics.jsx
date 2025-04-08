@@ -1,6 +1,6 @@
-import style from "./MainComic.module.css";
-import comicArray from "../comics.js"
-import Comic from "./Comic.jsx"
+import style from "./MainComics.module.css";
+import comicArray from "../comics.js";
+import Comic from "./Comic.jsx";
 
 export default function MainComic(image, title) {
     return (
