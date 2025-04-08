@@ -8,7 +8,7 @@ export default function MainComic(image, title) {
             {comicArray.map((item) => (
                 <Comic
                     image={item.thumb}
-                    title={item.title}
+                    title={item.series}
                 />
             ))}
         </div>

@@ -1,0 +1,16 @@
+.style {
+    width: calc(95% / 6);
+}
+
+.image {
+    width: 100%
+}
+
+.image>img {
+    width: 100%;
+}
+
+.text {
+    color: #ffffff;
+    width: 100%;
+}
