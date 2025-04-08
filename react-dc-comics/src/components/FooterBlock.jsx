@@ -4,7 +4,7 @@ import FooterBlockCard from './FooterBlockCard.jsx';
 const CardItems = [
     { text: 'DIGITAL COMICS', image: 'digital-comics.png' },
     { text: 'DC MERCHANDISE', image: 'merchandise.png' },
-    { text: 'SUBSCRIPTION', image: 'subscription.png' },
+    { text: 'SUBSCRIPTION', image: 'subscriptions.png' },
     { text: 'COMIC SHOP LOCATOR', image: 'shop-locator.png' },
     { text: 'DC POWER VISA', image: 'power-visa.svg' }]
     ;
