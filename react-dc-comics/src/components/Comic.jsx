@@ -1,10 +1,10 @@
 import style from "./Comic.module.css";
-import comic from "../comics.js";
 
-export default function Comic() {
+export default function Comic(image, title) {
     return (
         <div className={style.style}>
-
+            <div><img src={image} alt="" /></div>
+            <div>{title}</div>
         </div>
     );
 }
