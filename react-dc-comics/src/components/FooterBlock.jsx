@@ -1,16 +1,21 @@
 import style from "./FooterBlock.module.css"
 
 import FooterBlockCard from './FooterBlockCard.jsx';
-const CardItems = ['DIGITAL COMICS', 'DC MERCHANDISE', 'SUBSCRIPTION', 'COMIC SHOP LOCATOR', 'DC POWER VISA'];
-const CardImage = ['digital-comics.png', 'merchandise.png', 'subscription.png', 'shop-locator.png', 'power-visa.svg'];
+const CardItems = [
+    { text: 'DIGITAL COMICS', image: 'digital-comics.png' },
+    { text: 'DC MERCHANDISE', image: 'merchandise.png' },
+    { text: 'SUBSCRIPTION', image: 'subscription.png' },
+    { text: 'COMIC SHOP LOCATOR', image: 'shop-locator.png' },
+    { text: 'DC POWER VISA', image: 'power-visa.svg' }]
+    ;
 
 const FooterBlock = () => {
     return (
         <div className={style.style}>
             {CardItems.map((item) => (
                 <FooterBlockCard
-                    key={item}
-                    label={item}
+                    image={item.image}
+                    label={item.text}
                 />
             ))}
         </div>
