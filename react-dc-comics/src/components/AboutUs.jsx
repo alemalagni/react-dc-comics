@@ -8,40 +8,42 @@ const CardItems3 = ['DC', 'MAD Magazine', 'DC Kids', 'DC Universe', 'DC Power Vi
 
 const AboutUs = () => {
     return (
-        <div className={style.style}>
-            <div>
-                <strong className={style.strong}>DC COMICS</strong>
-                {CardItems0.map((item) => (
-                    <AboutUsList
-                        key={item}
-                        label={item}
-                    />
-                ))}
-                <strong className={style.strong}>SHOP</strong>
-                {CardItems1.map((item) => (
-                    <AboutUsList
-                        key={item}
-                        label={item}
-                    />
-                ))}
-            </div>
-            <div>
-                <strong className={style.strong}>DC</strong>
-                {CardItems2.map((item) => (
-                    <AboutUsList
-                        key={item}
-                        label={item}
-                    />
-                ))}
-            </div>
-            <div>
-                <strong className={style.strong}>SITES</strong>
-                {CardItems3.map((item) => (
-                    <AboutUsList
-                        key={item}
-                        label={item}
-                    />
-                ))}
+        <div>
+            <div className={style.style}>
+                <div>
+                    <strong className={style.strong}>DC COMICS</strong>
+                    {CardItems0.map((item) => (
+                        <AboutUsList
+                            key={item}
+                            label={item}
+                        />
+                    ))}
+                    <strong className={style.strong}>SHOP</strong>
+                    {CardItems1.map((item) => (
+                        <AboutUsList
+                            key={item}
+                            label={item}
+                        />
+                    ))}
+                </div>
+                <div>
+                    <strong className={style.strong}>DC</strong>
+                    {CardItems2.map((item) => (
+                        <AboutUsList
+                            key={item}
+                            label={item}
+                        />
+                    ))}
+                </div>
+                <div>
+                    <strong className={style.strong}>SITES</strong>
+                    {CardItems3.map((item) => (
+                        <AboutUsList
+                            key={item}
+                            label={item}
+                        />
+                    ))}
+                </div>
             </div>
         </div>
     );
