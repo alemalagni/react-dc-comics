@@ -7,7 +7,7 @@ export default function MainComic(image, title) {
     return (
         <div className={style.main}>
             <BlueBlock
-                label={'CURRENT SEIRES'}
+                label={'CURRENT SERIES'}
             />
             <div className={style.style}>
                 {comicArray.map((item) => (
