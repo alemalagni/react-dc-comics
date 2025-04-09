@@ -8,6 +8,7 @@ export default function MainComic(image, title) {
         <div className={style.main}>
             <BlueBlock
                 label={'CURRENT SERIES'}
+                elementStyle={{ fontSize: '24px', position: 'absolute', top: '-4%', left: '9%' }}
             />
             <div className={style.style}>
                 {comicArray.map((item) => (
