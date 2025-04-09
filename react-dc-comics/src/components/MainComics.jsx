@@ -18,7 +18,7 @@ export default function MainComic(image, title) {
                     />
                 ))}
             </div>
-            <a href="">
+            <a href="#">
                 <BlueBlock
                     label={'LOAD MORE'}
                     elementStyle={{ fontSize: '12px', position: 'absolute', bottom: '5%', justifySelf: 'anchor-center' }}
