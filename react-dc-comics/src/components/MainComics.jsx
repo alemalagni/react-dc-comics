@@ -5,7 +5,7 @@ import BlueBlock from "./BlueBlock.jsx";
 
 export default function MainComic(image, title) {
     return (
-        <>
+        <div className={style.main}>
             <BlueBlock
                 label={'CURRENT SEIRES'}
             />
@@ -17,6 +17,6 @@ export default function MainComic(image, title) {
                     />
                 ))}
             </div>
-        </>
+        </div>
     );
 }
