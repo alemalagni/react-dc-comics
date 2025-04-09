@@ -8,7 +8,7 @@ export default function MainComic(image, title) {
         <div className={style.main}>
             <BlueBlock
                 label={'CURRENT SERIES'}
-                elementStyle={{ fontSize: '24px', position: 'absolute', top: '-4%', left: '9%' }}
+                elementStyle={{ fontSize: '24px', position: 'absolute', top: '-4%', left: '9%', padding: '7px 15px' }}
             />
             <div className={style.style}>
                 {comicArray.map((item) => (
@@ -21,7 +21,7 @@ export default function MainComic(image, title) {
             <a href="#">
                 <BlueBlock
                     label={'LOAD MORE'}
-                    elementStyle={{ fontSize: '12px', position: 'absolute', bottom: '5%', justifySelf: 'anchor-center' }}
+                    elementStyle={{ fontSize: '11px', position: 'absolute', bottom: '5%', justifySelf: 'anchor-center', padding: '7px 60px' }}
                 />
             </a>
         </div>
