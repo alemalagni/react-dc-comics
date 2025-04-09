@@ -1,3 +1,7 @@
+.main {
+    position: relative;
+}
+
 .style {
     display: flex;
     place-items: center;
@@ -6,5 +10,4 @@
     flex-wrap: wrap;
     justify-content: space-between;
     padding: 50px 0px;
-    position: relative;
 }
